@@ -1,0 +1,6 @@
+.progress {
+    transition: width 2s;
+};
+.progress:hover {
+    width: 300px;
+}

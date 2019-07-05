@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.Home {
+    height: 2vh;
+    display: flex;
+    width: 100%;
+}
+.nav {
+    width: 100%;
+    transition: width 0.3s ease 0s, left 0.3s;
+    justify-content: center;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.nav_text {
+    transition: 2s;
+    padding: 1rem;
+    overflow: hidden;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav_text a {
+    text-decoration: none;
+    font-size: 13;
+    margin-left: 20px;
+}
+
+.nav_text a:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.scrolled {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    line-height: solid;    
+}
+
