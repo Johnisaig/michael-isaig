@@ -1,9 +1,10 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://johnisaig.github.io/profile/",
+  "private": true,
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
