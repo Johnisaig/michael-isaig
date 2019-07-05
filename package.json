@@ -10,7 +10,9 @@
     "react-scripts": "0.9.5",
     "react-slidez": "0.0.31"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
