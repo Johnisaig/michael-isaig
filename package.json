@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://johnisaig.github.io/profile/",
+  "homepage": "https://johnisaig.github.io/michael-isaig/",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.1.0",
