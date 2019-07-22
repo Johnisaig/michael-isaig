@@ -7,6 +7,7 @@ import Skill from './Forms/Skill';
 import Home from './Forms/Home';
 import Technologies from './Forms/Technologies';
 import Slides from './Forms/Slides';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 
 class App extends Component { 
@@ -21,9 +22,16 @@ class App extends Component {
           <Technologies />
           <Skill/>
           <Footer/>
+
       </div>
     );
   }
 }
+
+<MessengerCustomerChat
+    pageId="345734609698458"
+    appId="<APP_ID>"
+    htmlRef="<REF_STRING>"
+/>
 
 export default App;
